@@ -1,6 +1,5 @@
-package aoc2021.day1;
+package aoc2021;
 
-import aoc2021.SubmarineSonar;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -10,7 +9,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
-class Ch1Test {
+class Day1Test {
 
     private SubmarineSonar sonar;
     private List<Integer> depths;
